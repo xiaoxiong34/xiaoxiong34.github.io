@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{					/* *表示针对HTML的所有元素*/
+	padding:0px;	/*外边距为0px*/
+	margin:0px;		/*内边距为0px*/
+	line-height: 20px;		/*行高20px*/
+}
+body{				/*设置页面整体样式*/
+	height:100%;		/*高度为相对单位*/
+	background-color:#f3f1e9;		/*浅灰色背景*/
+	position:relative;		/*相对定位*/
+}
+img{
+	border:0px;			/*图片无边框*/
+}
+#main_block{				/*设置主体容器的样式*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;		/*设置文字大小为12px*/
+	color:#464646;			/*设置默认文字颜色为灰色*/
+	overflow:hidden;		/*溢出隐藏*/
+	float:left;			/*向左浮动*/
+	width:752px;		/*设置容器宽度为752px*/
+}
+.content_main{				/*设置内容区域的样式*/
+	width:720px;
+	float:left;			/*向左浮动*/
+	padding:20px 0 10px 20px;	/*上、右、下、左的内边距依次为20px,0px,10px,20px*/
+}
+.box_details{				/*设置详细信息盒子的样式*/
+	padding:10px 0 10px 0;	/*上、右、下、左的内边距依次为10px,0px,10px,0px*/
+	margin:10px 20px 10px 0;	/*上、右、下、左的外边距依次为10px,20px,10px,0px*/
+	clear:both;			/*清除所有浮动*/
+}
+.box_details p{			/*设置盒子中段落的样式*/
+	padding:5px 15px 5px 15px;	/*上、右、下、左的内边距依次为5px,15px,5px,15px*/
+	text-indent:2em			/*首行缩进*/
+}
+img.right{		/*设置图片对齐方式*/
+	float:right;		/*向右浮动*/
+	padding:0 0 0 30px;/*上、右、下、左的内边距依次为0px,0px,0px,30px*/
+}
+

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+*{						/* *表示针对HTML的所有元素*/
+	padding:0px;			/*内边距为0px*/
+	margin:0px;			/*外边距为0px*/
+	line-height: 20px;			/*行高20px*/
+}
+body{					/*设置页面整体样式*/
+	height:100%;			/*高度为相对单位*/
+	background-color:#f3f1e9;	/*浅灰色背景*/
+	position:relative;			/*相对定位*/
+}
+img{
+	border:0px;				/*图片无边框*/
+}
+#wrapper{				/*设置主体容器样式*/
+	padding:0 0 5px 0	/*上、右、下、左的内边距依次为0px,0px,5px,0px*/
+}
+#content_inside{	/*设置页面内容区域样式*/
+	background-image:url(../images/bg.gif);	/*背景图像*/
+	background-position:top left;			/*背景图像顶端左对齐*/
+	background-repeat:no-repeat;			/*背景图像无重复*/
+	width:1000px;
+	margin:0 auto;		/*区域自动居中对齐*/
+	overflow:hidden		/*溢出内容隐藏*/
+}
+#main_block{				/*设置主体内容右侧区域的样式*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;			/*设置文字大小为12px*/
+	color:#464646;			/*设置默认文字颜色为灰色*/
+	overflow:hidden;			/*溢出隐藏*/
+	float:left;				/*向左浮动*/
+	width:752px;			/*设置容器宽度为752px*/
+}
+.pad20{					/*设置主体内容右侧区域内边距样式*/
+	padding:0 0 20px 0		/*上、右、下、左的内边距依次为0px,0px,20px,0px*/
+}
+#item{			/*设置右侧区域家具大图和缩略图容器的样式*/
+	padding:13px 0 0 5px;	/*上、右、下、左的内边距依次为13px,0px,0px,5px*/
+	float:left	/*向左浮动*/
+}
+#item h4{		/*设置家具大图和缩略图容器标题文字的样式*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;		/*字体大小24x*/
+	color:#242424;		/*灰色文字*/
+	font-weight:normal;		/*字体正常粗细*/
+}
+.big_view{		/*设置家具大图区域的样式*/
+	width:478px;		/*宽度478px*/
+	padding:20px 0 12px 0;	/*上、右、下、左的内边距依次为20px,0px,12px,0px*/
+	vertical-align:middle;	/*垂直方向居中对齐*/
+	border:1px solid #D6D3C7;		/*边框1px浅灰色实线*/
+	background-color:#FFFFFF;		/*背景色为白色*/
+	position:relative;		/*相对定位*/
+	text-align:center;		/*文字居中对齐*/
+}
+.big_view span{		/*设置家具价格文字的样式*/
+	font-size:30px;	/*字体大小30x*/
+	color:#E9410E;		/*红色文字*/
+	display:block;		/*块级元素*/
+	position:absolute;		/*绝对定位*/
+	bottom:10px;	/*距离容器底部10px*/
+	left:25px;	/*距离容器左端25px*/
+}
+.scroll{	/*设置家具缩略图区域的样式*/
+	width:478px;		/*宽度478px*/
+	border:1px solid #D6D3C7;		/*边框1px浅灰色实线*/
+	background-color:#FFFFFF;
+	padding:6px 0;	/*上、右、下、左的内边距依次为6px,0px,6px,0px*/
+	text-align:center;		/*文字居中对齐*/
+	margin:5px 0 0 0;	/*上、右、下、左的外边距依次为5px,0px,0px,0px*/
+}
+.scroll a{	/*设置家具缩略图区域超链接的样式*/
+	margin:0 2px;	/*上、右、下、左的外边距依次为0px,2px,0px,2px*/
+} 
+.description{	/*设置家具详细商品参数的样式*/
+	width:220px;		/*宽度200px*/
+	float:left;			/*向左浮动*/
+	padding:55px 0 0 25px;	/*上、右、下、左的内边距依次为55px,0px,0px,25px*/
+}
+.description p{			/*设置商品参数段落的样式*/
+	padding-bottom:15px;	/*下内边距15px*/
+}
+.view{		/*设置查看按钮的样式*/
+	display:block;		/*块级元素*/
+	float:left;		/*向左浮动*/
+	line-height:18px;		/*行高18px*/
+	margin:3px 3px 0 0;
+	width:41px;
+	text-align:center;		/*文字居中对齐*/
+	background-image:url(图片/view_bg.gif);/*背景图像*/
+	background-position:top left;			/*背景图像顶端左对齐*/
+	background-repeat:no-repeat;			/*背景图像无重复*/
+	color:#fff;
+	text-decoration:none		/*链接无修饰*/
+}
+.buy{	/*设置购买此商品按钮的样式*/
+	display:block;		/*块级元素*/
+	float:left;		/*向左浮动*/
+	line-height:18px;		/*行高18px*/
+	margin:3px 3px 0 0;
+	width:92px;
+	text-align:center;		/*文字居中对齐*/
+	background-image:url(图片/buy_bg.gif);/*背景图像*/
+	background-position:top left;			/*背景图像顶端左对齐*/
+	background-repeat:no-repeat;			/*背景图像无重复*/
+	color:#CAFF34;
+	text-decoration:none		/*链接无修饰*/
+}
+

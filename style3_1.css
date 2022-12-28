@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-family: "宋体";
+	line-height: 1.4em;
+	background-color:floralwhite
+}
+p {						/*设置详细信息段落*/
+	margin: 0 0 10px 0; 		/*上、右、下、左的外边距依次为0px,0px,10px,0px*/
+	padding: 0; 			/*内边距为0px*/
+}
+h2{						
+	font-size: 30px; 			
+	margin: 0 0 30px; 		
+	padding: 5px 0	;
+	color: red;
+	align: center;
+}
+h3{
+	font-size: 30px; 			
+	margin: 0 0 30px; 		
+	padding: 5px 0	;
+	color: green;
+	align:left;
+}
+.h20 {
+	height: 20px			/*设置高度为20px*/
+}
+.box_details p{
+	padding: 5px 15px 5px 15px;
+	text-indent:2em;
+	font-size: 20;
+}
