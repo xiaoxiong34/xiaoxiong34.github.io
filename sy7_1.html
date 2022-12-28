@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<script type="text/javascript">
+		function docal(sum){
+		var str1=document.getElementById("num1").value;
+		var str2=document.getElementById("num2").value;
+		var str3=document.getElementById("num3").value;
+		var str;
+		var a=parseInt(str1);
+		var b=parseInt(str2);
+		var c=parseInt(str3);
+		str=(a+b+c)/3;
+		alert("平均值为："+str);}
+		
+	</script>
+</head>
+
+<body>
+	<lable>输入三个整数：</lable><br/>
+	<input type="text" id="num1"/><br/>
+	<input type="text" id="num2"/><br/>
+	<input type="text" id="num3"/><br/>
+	<input type="button" value="计算！" onclick="docal()"/>
+	
+	
+</body>
+</html>

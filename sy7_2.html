@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script type="text/javascript">
+	function my_open(){
+		let my_image=document.getElementById("my_img");
+		my_image.src="开灯.png"
+	}
+	function my_close(){
+		let my_image=document.getElementById("my_img");
+		my_image.src="关灯.png";
+	}
+
+	</script>
+</head>
+
+<body>
+	<button onClick="my_close()">关灯</button>
+	<img id="my_img" src="关灯.png" alt="#">
+	<button onClick="my_open()">开灯</button>
+</body>
+</html>
